@@ -46,13 +46,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 			<div class="col-md-6 w3layouts_about_grid_left">
 				<div class="w3_about_grid">
-					<img src="images/4.jpg" alt=" " class="img-responsive" />
+					<img src="images/ambiente-de-trabalho-analise-analises-938963.jpg" alt=" " class="img-responsive" />
 				</div>
 				<div class="col-md-6 w3layouts_about_grid_left1">
-					<img src="images/1.jpg" alt=" " class="img-responsive" />
+					<img src="images/analises-analitico-analytics-209224.jpg" alt=" " class="img-responsive" />
 				</div>
 				<div class="col-md-6 w3layouts_about_grid_left1">
-					<img src="images/5.jpg" alt=" " class="img-responsive" />
+					<img src="images/adulto-ambiente-de-trabalho-aparelho-1061588.jpg" alt=" " class="img-responsive" />
 				</div>
 				<div class="clearfix"> </div>
 			</div>
@@ -281,7 +281,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	 
 	<!-- menu -->
 	<!-- js -->
-	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 	<script type="text/javascript" src="js/modernizr.custom.46884.js"></script>
 	<!-- //js -->
 	<!-- password-script -->
@@ -362,13 +362,20 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!-- //here ends scrolling icon -->
 	<!-- /inclusão dos formulários -->
 	<script>
-			$(document).ready(function () {
-				$("div[data-includeHTML]").each(function () {
-					$(this).load($(this).attr("data-includeHTML"));
-				});
+		$(document).ready(function () {
+			$("div[data-includeHTML]").each(function () {
+				$(this).load($(this).attr("data-includeHTML"));
 			});
-		</script>
-		<!-- //inclusão dos formulários -->
+		});
+	</script>
+	<!-- //inclusão dos formulários -->
+	<script>
+		$(function(){
+			$("li.active").removeClass("active");
+			$("li:get(1)").addClass("active");
+		});
+		 
+	</script>
 </body>
 
 </html>
