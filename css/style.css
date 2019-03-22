@@ -1377,8 +1377,11 @@ ul.agile_footer_grid_list li i{
 /*-- //footer --*/
 .agile_inner_banner_info {
     text-align: center;
-    background: url(../images/adulto-alegre-alegria-826349.jpg)no-repeat center;
-    background-size: cover;
+	/* background: url(../images/png_logomark@2x.png); */
+	/* background-image: url(../images/png_logomark@2x.png); */
+	background-color: #000;
+	/* background-size: cover; */
+	/* background-size: 50%; */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
