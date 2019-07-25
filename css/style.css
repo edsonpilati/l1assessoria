@@ -6,7 +6,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 html, body{
     font-size: 100%;
-	font-family: 'Open Sans', sans-serif;
+	font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
 	background:#ffffff;
 	margin: 0;
 }
@@ -16,7 +16,7 @@ p,ul li,ol li{
 	letter-spacing:1px;
 }
 h1,h2,h3,h4,h5,h6{
-    font-family: 'Raleway', sans-serif;
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
 	margin:0;
 	font-weight: 700;
 } 
@@ -54,14 +54,14 @@ input[type="submit"],.w3l_header_left ul li a,.related-post-right h4 a,.comments
 }
 .w3l_header_left ul li i {
     padding-right: 1em;
-    color: #00a98f;
+    color: #05E6F2;
 }
 .w3l_header_left ul li a{
 	color:#999;
 	text-decoration:none;
 }
 .w3l_header_left ul li a:hover{
-	color:#00a98f;
+	color:#05E6F2;
 }
 .w3l_header_right{
 	float: right;
@@ -129,11 +129,11 @@ input[type="submit"],.w3l_header_left ul li a,.related-post-right h4 a,.comments
     margin-right: 0;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    color:#00a98f;
+    color:#05E6F2;
     background:none;
 }
 .navbar-default .navbar-nav > .active > a:before{
-	background: #00a98f;
+	background: #05E6F2;
 	transform: translateX(0);
 	-webkit-transform: translateX(0);
 	-moz-transform: translateX(0);
@@ -151,10 +151,10 @@ input[type="submit"],.w3l_header_left ul li a,.related-post-right h4 a,.comments
     text-transform: uppercase;
 }
 .navbar-default .navbar-nav > li > a:hover{
-    color:#00a98f;
+    color:#05E6F2;
 }
 .navbar-default .navbar-nav > li > a:focus {
-    color: #00a98f;
+    color: #05E6F2;
 	outline:none;
 }
 nav.navbar.navbar-default {
@@ -176,8 +176,7 @@ a.navbar-brand {
     color: #131212;
     padding: 0;
     font-size: 0.9em;
-    font-weight: 800;
-    text-transform: uppercase;
+    font-weight: 800; 
     line-height: 50px;
 }
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
@@ -185,7 +184,7 @@ a.navbar-brand {
     background-color: transparent;
 }
 a.navbar-brand i{
-	color:#00a98f;
+	color:#05E6F2;
 }
 .navbar-default .navbar-brand {
     color: #131212;
@@ -208,7 +207,7 @@ a.navbar-brand i{
 .agile_short_dropdown > li > a:hover{
     color: #fff;
     text-decoration: none;
-    background-color:#00a98f;
+    background-color:#05E6F2;
 }
 ul.nav.navbar-nav {
     margin-top: 15px;
@@ -234,7 +233,7 @@ ul.agile_forms {
   left: 50%;
   right: 50%;
   bottom: 0;
-    background: #00a98f;
+    background: #05E6F2;
   height: 4px;
   -webkit-transition-property: left, right;
   transition-property: left, right;
@@ -252,7 +251,7 @@ ul.agile_forms {
       font-size: .3em;
     color: #fff;
     letter-spacing: 4px;
-    background: #00a98f;
+    background: #05E6F2;
     padding: 4px 10px;
     vertical-align: top;
     font-weight: 100;
@@ -262,7 +261,7 @@ ul.agile_forms {
 
 }
 ul.agile_forms li a {
-    background: #00a98f;
+    background: #05E6F2;
     color: #fff;
     font-size: 0.9em;
     padding: 8px 1em;
@@ -341,7 +340,7 @@ ul.agile_forms li{
 		width: 91%;
 	}
 	.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-		background: #00a98f;
+		background: #05E6F2;
 	}
 	.navbar-default .navbar-toggle .icon-bar {
 		background-color: #fff;
@@ -368,7 +367,7 @@ ul.agile_forms li{
 		margin: 6px 0;
 	}
 	.navbar-nav .open .dropdown-menu {
-		background-color: #00a98f;
+		background-color: #05E6F2;
 		padding:10px 0;
 	}
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
@@ -489,7 +488,7 @@ h3.agileinfo_sign  {
     color: #FFFFFF;
 	text-transform:uppercase;
     cursor: pointer;
-    background: #00a98f;
+    background: #05E6F2;
     box-shadow: 0px 2px 1px rgba(28, 28, 29, 0.42);
 	
 }
@@ -603,10 +602,10 @@ button.close {
     text-transform: capitalize;
     font-weight: 300;
     padding-left: 0.8em;
-    border-left: 5px solid #00a98f;
+    border-left: 5px solid #05E6F2;
 }
 .agileits_banner_bottom_left h3 span{
-    color: #00a98f;
+    color: #05E6F2;
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 1px;
@@ -731,7 +730,7 @@ h5.grow {
     width: 40%;
     float: left;
     height: 4px;
-    background-color: #00a98f;
+    background-color: #05E6F2;
 }
 h3.tittle_agile_w3,.agile_inner_banner_info h2 {
     font-size: 3em;
@@ -799,8 +798,8 @@ h3.tittle_agile_w3.two {
 	margin:0 auto;
 }
 .agile-why-text h4{
-    font-size: 1.5em;
-    color: #00a98f;
+    font-size: 1.2em;
+    color: #019FD7;
     letter-spacing: 1px;
     font-weight: 700;
 }
@@ -820,7 +819,7 @@ h3.tittle_agile_w3.two {
 }
 .wthree_agile_us  i{
 	font-size: 1.5em;
-	color:#efb312;
+	color:#05E6F2;
 	line-height:1.5em;
 }
 .agile-why-text.two {
@@ -899,7 +898,7 @@ a.view.resw3 {
     font-size: 0.9em;
     color: #fff;
     padding: 0.6em 1.2em;
-    background: #00a98f;
+    background: #05E6F2;
     letter-spacing: 1px;
     display: inline-block;
 	    border-radius: 5px;
@@ -997,7 +996,7 @@ letter-spacing: 2px;
     margin: 2em 0;
 }
 .w3layouts_newsletter_right input[type="submit"]:hover{
-	    background: #00a98f;
+	    background: #05E6F2;
 }
 /*-- //News --*/
 .skills_img_agile h4 {
@@ -1235,11 +1234,11 @@ ul.portfolio_agile_info_w3ls li {
 	-ms-border-radius: 5px;
 }
 .w3layouts_bottom {
-    background: #00a98f;
+    background: #0061BC;
     padding: 4em 0;
 }
 .w3layouts_getin_info h3 {
-    color: #000;
+    color: #fff;
     letter-spacing: 4px;
     font-size: 1.5em;
 }
@@ -1297,7 +1296,7 @@ ul.agile_footer_grid_list li i{
 	text-transform:uppercase;
 }
 .agileits_w3layouts_footer_grid_list li i{ 
-    color: #00a98f;
+    color: #05E6F2;
     padding-right: 1em;
 }
 .agileits_w3layouts_footer_grid_list li a{
@@ -1326,7 +1325,7 @@ ul.agile_footer_grid_list li i{
     height: 55px;
     border-radius: 50px;
     text-align: center;
-    background: #00a98f;
+    background: #05E6F2;
     border: 2px solid #000;
     margin: 0 auto 1em;
 }
@@ -1432,7 +1431,7 @@ body .bar_group__bar.thin::before {
 body .bar_group__bar.thin {
     width: 0%;
     height: 20px;
-    background: #00a98f;
+    background: #05E6F2;
     margin-bottom: 20px;
     -webkit-transition: width 1s;
     transition: width 1s;
@@ -1994,12 +1993,12 @@ h2.typoh2{
 }
 .w3layouts_about_grid_right_grid1l_1 i{
     font-size: 1.3em;
-    color: #efb312;
+    color: #05E6F2;
     line-height: 3.2em;
 }
 .w3layouts_about_grid_right_grid1r h4{
     font-size: 1.2em;
-    color: #00a98f;
+    color: #019FD7;
     margin-bottom: .5em;
     font-weight: 700;
     letter-spacing: 1px;
@@ -2250,13 +2249,13 @@ a.pa_italic:focus {
 	position: absolute;
 	top: -200%;
 	left: 0;
-	color: #00a98f;
+	color: #05E6F2;
 	font-weight: 800;
 }
 
 .input__field--chisato:focus,
 .input--filled .input__field--chisato {
-	border-color: #00a98f;
+	border-color: #05E6F2;
 }
 
 .input__field--chisato:focus + .input__label--chisato,
@@ -2342,7 +2341,7 @@ outline: none;
     letter-spacing: 1px;
 }
 .agileinfo_mail_grids textarea:focus {
-    border-color:#00a98f;
+    border-color:#05E6F2;
 }
 .agileinfo_mail_grids input[type="submit"] {
     outline: none;
@@ -2362,7 +2361,7 @@ outline: none;
     -ms-border-radius: 5px;
 }
 .agileinfo_mail_grids input[type="submit"]:hover{
-background: #00a98f;
+background: #05E6F2;
 }
 /*-- //contact --*/
 /*-- social-icons --*/
