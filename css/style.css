@@ -1326,7 +1326,7 @@ ul.agile_footer_grid_list li i{
     border-radius: 50px;
     text-align: center;
     background: #05E6F2;
-    border: 2px solid #000;
+    /* border: 2px solid #000; */
     margin: 0 auto 1em;
 }
 .wthree_footer_grid_left i{
