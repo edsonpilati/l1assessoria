@@ -1,0 +1,6 @@
+Name: Sarpanch
+URL:  https://fonts.google.com/specimen/Sarpanch
+
+Name: Cinzel
+URL:  https://fonts.google.com/specimen/Cinzel
+
